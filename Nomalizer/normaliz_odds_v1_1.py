@@ -2,6 +2,8 @@ import json
 import os
 import csv
 
+#  Copyright (c) 2026 David Smiley. #
+
 SNAPSHOT_FOLDER = "snapshots"
 NORMALIZED_FOLDER = "normalized"
 
