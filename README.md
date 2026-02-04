@@ -225,7 +225,7 @@ Contributions welcome! Please:
 
 ## 📜 License
 
-MIT License - see LICENSE file for details
+Attribution Assurance License - see LICENSE file for details
 
 ---
 
