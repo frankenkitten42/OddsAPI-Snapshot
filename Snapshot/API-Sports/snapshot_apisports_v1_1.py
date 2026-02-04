@@ -15,6 +15,8 @@ Modes:
 Designed to integrate with normalize_odds.py
 
 Changelog: See CHANGELOG.md
+
+Copyright (c) 2026 David Smiley
 ====================================================
 """
 
