@@ -14,6 +14,7 @@ Automatically probes REST APIs to discover:
 - Parameter dependencies
 
 Useful for onboarding new APIs without manual trial-and-error.
+Copyright (c) 2026 David Smiley
 ====================================================
 """
 
