@@ -34,22 +34,41 @@ python3 api_sniffer.py --batch examples/apisports_batch_american.json \
 
 ---
 
-### 2. Snapshot API-Sports (v1.1) - Data Collection Tool
+### 2. Snapshot OddsAPI (v1.1) - Data Collection Tool
+Simple sports data collector for OddsAPI with support for NFL, NBA, MLB, NHL, and more.
+
+**Key Features:**
+- Mulit-sport support (NFL, NBA, MLB, ect.)
+- Flexible data collection (sport, market, outcome, price, and more)
+- API key management
+- Saves to JSON with clean formatting ready to be normalized
+
+**Quick Start**
+```bash
+# Set API Key
+python3 snapshot_oddsapi.py key {YOUR_KEY}
+
+# Collect NHL data
+python3 snapshot_oddsapi.py --sports hockey_nhl
+
+---
+
+### 3. Snapshot API-Sports (v1.1) - Data Collection Tool
 Comprehensive sports data collector for API-Sports with support for NFL, NBA, Formula 1, MMA, and more.
 
 **Key Features:**
 - 🏈 Multi-sport support (NFL, NBA, F1, MMA, etc.)
 - 📊 Flexible data collection (leagues, seasons, games, teams, players)
 - 🔄 Handles inconsistent API structures across sports
-- 💾 Saves to JSON with clean formatting
+- 💾 Saves to JSON with clean formatting ready to be normalized
 
 **Quick Start:**
 ```bash
 # Collect NBA data
 python3 snapshot_apisports.py basketball \
   --key YOUR_KEY \
-  --leagues 12 \
-  --seasons 2024 \
+  --league 12 \
+  --seasn 2024 \
   --collection games
 
 # Collect NFL data
