@@ -66,6 +66,8 @@ python3 snapshot_apisports.py american-football \
 
 | Guide | Description |
 |-------|-------------|
+| [OddsAPI_README.md](docs/OdddsAPI_README.md) | Information about snapshot_oddsapi_v1_1.py |
+| [Sports-API_README.md](docs/Sports-API_README.md) | Information about snapshot_sportsapi_v1_1.py |
 | [API_SNIFFER_GUIDE.md](docs/API_SNIFFER_GUIDE.md) | Complete guide for api_sniffer.py |
 | [PARAM_DEPTH_GUIDE.md](docs/PARAM_DEPTH_GUIDE.md) | Parameter depth levels reference |
 | [CHANGELOG.md](docs/CHANGELOG.md) | Version history and updates |
